@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="so3-M9-J2Z">
+            <objects>
+                <viewController storyboardIdentifier="TEHomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="ut9-RB-yrT" customClass="TEHomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Htg-z3-7F6"/>
+                        <viewControllerLayoutGuide type="bottom" id="AUq-XD-M37"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hHn-NG-duk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EyT-n0-g9H">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="x2l-3n-bDB" appends="YES" id="4XJ-Qe-GFw"/>
+                                </connections>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="e4g-gC-5Y0">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TEUserInfoCell" id="Ugj-v2-nQ2" customClass="TEUserInfoCell">
+                                        <rect key="frame" x="0.0" y="56" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ugj-v2-nQ2" id="hLP-1N-ANL">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjc-Aj-ehn">
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcE-mp-YA6">
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                            <color key="textColor" red="0.54509803921568623" green="0.79607843137254897" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoC-ex-jBR">
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                            <color key="textColor" red="0.0" green="0.6588235294" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="rcE-mp-YA6" firstAttribute="leading" secondItem="cjc-Aj-ehn" secondAttribute="leading" constant="8" id="C2y-Y2-aQT"/>
+                                                        <constraint firstItem="rcE-mp-YA6" firstAttribute="centerY" secondItem="cjc-Aj-ehn" secondAttribute="centerY" id="O5U-ki-rOV"/>
+                                                        <constraint firstItem="KoC-ex-jBR" firstAttribute="centerY" secondItem="cjc-Aj-ehn" secondAttribute="centerY" id="WrC-4S-JsE"/>
+                                                        <constraint firstAttribute="trailing" secondItem="KoC-ex-jBR" secondAttribute="trailing" constant="8" id="f0J-a9-j1l"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cjc-Aj-ehn" firstAttribute="leading" secondItem="hLP-1N-ANL" secondAttribute="leading" id="Dll-8n-OEZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="cjc-Aj-ehn" secondAttribute="bottom" id="HD2-s2-gBn"/>
+                                                <constraint firstItem="cjc-Aj-ehn" firstAttribute="top" secondItem="hLP-1N-ANL" secondAttribute="top" id="Sdc-2F-c15"/>
+                                                <constraint firstAttribute="trailing" secondItem="cjc-Aj-ehn" secondAttribute="trailing" id="kbC-R6-kvL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="leftLabel" destination="rcE-mp-YA6" id="epv-zG-qmp"/>
+                                            <outlet property="rightLabel" destination="KoC-ex-jBR" id="560-fQ-k5x"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ut9-RB-yrT" id="ket-uN-UIv"/>
+                                    <outlet property="delegate" destination="ut9-RB-yrT" id="zFw-GW-N4q"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="e4g-gC-5Y0" secondAttribute="trailing" id="6fW-jt-FwC"/>
+                            <constraint firstItem="e4g-gC-5Y0" firstAttribute="top" secondItem="hHn-NG-duk" secondAttribute="top" id="K3X-pX-PZZ"/>
+                            <constraint firstAttribute="bottom" secondItem="e4g-gC-5Y0" secondAttribute="bottom" id="WEt-Ji-xxz"/>
+                            <constraint firstItem="EyT-n0-g9H" firstAttribute="leading" secondItem="hHn-NG-duk" secondAttribute="leading" id="YOc-bY-4Iv"/>
+                            <constraint firstAttribute="bottom" secondItem="EyT-n0-g9H" secondAttribute="bottom" id="Zin-s2-bec"/>
+                            <constraint firstAttribute="trailing" secondItem="EyT-n0-g9H" secondAttribute="trailing" id="gfs-C9-skk"/>
+                            <constraint firstItem="e4g-gC-5Y0" firstAttribute="leading" secondItem="hHn-NG-duk" secondAttribute="leading" id="lqR-mg-PiY"/>
+                            <constraint firstItem="EyT-n0-g9H" firstAttribute="top" secondItem="hHn-NG-duk" secondAttribute="top" id="nMk-Cm-UEz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="menuFilterView" destination="EyT-n0-g9H" id="5Ls-KS-Bhz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cm4-QY-N3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="x2l-3n-bDB">
+                    <connections>
+                        <action selector="closeMenuAction:" destination="ut9-RB-yrT" id="gc5-tA-NsM"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="84" y="68"/>
+        </scene>
+    </scenes>
+</document>

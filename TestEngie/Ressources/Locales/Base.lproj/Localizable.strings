@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  TestEngie
+
+  Created by Mohamed on 21/05/2017.
+  Copyright © 2017 Mohamed. All rights reserved.
+*/
+
+//alertView
+"alert.common.ok" = "ok";
+
+//signup
+"button.signup.title" = "Inscription avec mon email";
+"signup.name" = "Nom";
+"signup.user.name" = "UserName";
+"signup.email" = "Email";
+"signup.address" = "Adresse";
+"signup.address.suite" = "Suite Adresse";
+"signup.city" = "Ville";
+"signup.zip.code" = "Code postal";
+"signup.zip.phone" = "N télephone";
+"signup.zip.website" = "Site web";
+"signup.company.name" = "Société";
+"signup.company.catchPhrase" = "slogan";
+"signup.company.bs" = "BS";
+"signup.zip.phone" = "N télephone";
+"signup.zip.website" = "Site web";
+"button.create.account.title" = "Créer mon compte";
+"create.account.screen.title" = "Inscription";
+"create.account.empty.email.alert.title" = "Attention";
+"create.account.empty.email.alert.description" = "L'email est invalide";
+"create.account.ws.alert.description" = "Une erreur est survenue";
+
+//menu
+"menu.lgout.button.title" = "Déconnexion";
+
+//Home
+"home.screen.title" = "Acceuil";
+"home.section.1.title" = "Informations";
+"home.section.2.title" = "Adresse";
+"home.section.3.title" = "Société";
+
+

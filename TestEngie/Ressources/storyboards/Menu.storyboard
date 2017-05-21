@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="hll-7T-2VE">
+            <objects>
+                <viewController storyboardIdentifier="TEMenuViewController" id="ofE-y5-cOc" customClass="TEMenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="apE-Nl-jov"/>
+                        <viewControllerLayoutGuide type="bottom" id="nG9-ZQ-5Oj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fli-S4-X1v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C2Z-p2-doB">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TEMenuButtonCell" id="hE4-fc-mhA" customClass="TEMenuButtonCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hE4-fc-mhA" id="Az6-PF-ncK">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgd-7q-fDc" customClass="TELocalizedButton">
+                                                    <state key="normal" title="menu.lgout.button.title">
+                                                        <color key="titleColor" red="0.92549020049999997" green="0.23529411850000001" blue="0.1019607857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="buttonAction:" destination="hE4-fc-mhA" eventType="touchUpInside" id="Zu0-Wf-nDw"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Kgd-7q-fDc" firstAttribute="top" secondItem="Az6-PF-ncK" secondAttribute="top" id="FDH-qc-7kc"/>
+                                                <constraint firstItem="Kgd-7q-fDc" firstAttribute="leading" secondItem="Az6-PF-ncK" secondAttribute="leading" id="Sp4-VG-4Qx"/>
+                                                <constraint firstAttribute="bottom" secondItem="Kgd-7q-fDc" secondAttribute="bottom" id="rTd-ag-pwm"/>
+                                                <constraint firstAttribute="trailing" secondItem="Kgd-7q-fDc" secondAttribute="trailing" id="uv8-f8-Nt1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ofE-y5-cOc" id="Ufc-Nh-APM"/>
+                                    <outlet property="delegate" destination="ofE-y5-cOc" id="m2i-Ze-l12"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C2Z-p2-doB" firstAttribute="top" secondItem="fli-S4-X1v" secondAttribute="top" id="8r5-Rm-Tsl"/>
+                            <constraint firstItem="nG9-ZQ-5Oj" firstAttribute="top" secondItem="C2Z-p2-doB" secondAttribute="bottom" id="WQx-kf-xpL"/>
+                            <constraint firstItem="C2Z-p2-doB" firstAttribute="leading" secondItem="fli-S4-X1v" secondAttribute="leading" id="eap-x9-jZc"/>
+                            <constraint firstAttribute="trailing" secondItem="C2Z-p2-doB" secondAttribute="trailing" id="rrU-iy-njA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KgJ-b8-3r1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="OMn-H8-yaB">
+                    <connections>
+                        <action selector="closeMenuAction:" destination="ofE-y5-cOc" id="ACu-HD-BHX"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="284" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+</document>

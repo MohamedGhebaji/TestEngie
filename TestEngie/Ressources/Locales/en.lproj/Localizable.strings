@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  TestEngie
+
+  Created by Mohamed on 21/05/2017.
+  Copyright © 2017 Mohamed. All rights reserved.
+*/
+
+//alertView
+"alert.common.ok" = "ok";
+
+//signup
+"button.signup.title" = "Register with my email";
+"signup.name" = "Name";
+"signup.user.name" = "Username";
+"signup.email" = "Email";
+"signup.address" = "Address";
+"signup.address.suite" = "Suite Address";
+"signup.city" = "City";
+"signup.zip.code" = "ZipCode";
+"signup.zip.phone" = "Phone number";
+"signup.zip.website" = "WebSite";
+"signup.company.name" = "Company";
+"signup.company.catchPhrase" = "catch Phrase";
+"signup.company.bs" = "BS";
+"button.create.account.title" = "Create my account";
+"create.account.screen.title" = "Registration";
+"create.account.empty.email.alert.title" = "Warning";
+"create.account.empty.email.alert.description" = "Email is invalid";
+"create.account.ws.alert.description" = "An error has occurred";
+
+//menu
+"menu.lgout.button.title" = "logout";
+
+//Home
+"home.screen.title" = "Home";
+"home.section.1.title" = "Information";
+"home.section.2.title" = "Address";
+"home.section.3.title" = "Company";

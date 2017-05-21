@@ -1,0 +1,18 @@
+PODS:
+  - Expecta (1.0.5)
+  - IQKeyboardManager (4.0.9)
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0)
+  - IQKeyboardManager
+  - Specta (~> 1.0)
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: edd05ed15a0a102e77b8ee9d88aa26ed6ec443a7
+
+COCOAPODS: 1.2.0
