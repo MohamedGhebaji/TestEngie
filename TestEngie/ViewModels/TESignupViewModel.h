@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TEHandlers.h"
+
 @class TEUser;
 
 @interface TESignupViewModel : NSObject

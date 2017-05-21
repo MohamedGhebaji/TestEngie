@@ -11,6 +11,11 @@
 		D9654F561ED1FCC300473AF4 /* TEUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F551ED1FCC300473AF4 /* TEUserInfoCell.m */; };
 		D9654F591ED1FF6B00473AF4 /* TEHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F581ED1FF6B00473AF4 /* TEHomeViewModel.m */; };
 		D9654F5C1ED217D700473AF4 /* TELocalizedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F5B1ED217D700473AF4 /* TELocalizedLabel.m */; };
+		D9654F5E1ED228CE00473AF4 /* TestCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F5D1ED228CE00473AF4 /* TestCompanyModel.m */; };
+		D9654F601ED22E0700473AF4 /* TestGeolocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F5F1ED22E0700473AF4 /* TestGeolocationModel.m */; };
+		D9654F621ED22F1A00473AF4 /* TestAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F611ED22F1A00473AF4 /* TestAddressModel.m */; };
+		D9654F641ED22FE100473AF4 /* TestHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F631ED22FE100473AF4 /* TestHomeViewModel.m */; };
+		D9654F671ED2328F00473AF4 /* TestSignupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F661ED2328F00473AF4 /* TestSignupViewModel.m */; };
 		D99CFBCA1ED0498F009EE2A4 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBC91ED0498F009EE2A4 /* Menu.storyboard */; };
 		D99CFBCC1ED049B5009EE2A4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBCB1ED049B5009EE2A4 /* Home.storyboard */; };
 		D99CFBCE1ED0C52A009EE2A4 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBCD1ED0C52A009EE2A4 /* Onboarding.storyboard */; };
@@ -25,7 +30,6 @@
 		D99CFBF71ED0E5EA009EE2A4 /* NSString+Localized.m in Sources */ = {isa = PBXBuildFile; fileRef = D99CFBF61ED0E5EA009EE2A4 /* NSString+Localized.m */; };
 		D99CFBFC1ED1A611009EE2A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBFE1ED1A611009EE2A4 /* Localizable.strings */; };
 		D99CFC071ED1A812009EE2A4 /* TELocalizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D99CFC061ED1A812009EE2A4 /* TELocalizedButton.m */; };
-		D9AE24A61ECE1D7400C9E4F7 /* TestEngieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE24A51ECE1D7400C9E4F7 /* TestEngieTests.m */; };
 		D9AE24B11ECE1D7400C9E4F7 /* TestEngieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE24B01ECE1D7400C9E4F7 /* TestEngieUITests.m */; };
 		D9AE24CB1ECE1E2A00C9E4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE24BF1ECE1E2A00C9E4F7 /* Assets.xcassets */; };
 		D9AE24CE1ECE1E2A00C9E4F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9AE24C41ECE1E2A00C9E4F7 /* Info.plist */; };
@@ -82,6 +86,11 @@
 		D9654F581ED1FF6B00473AF4 /* TEHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEHomeViewModel.m; sourceTree = "<group>"; };
 		D9654F5A1ED217D700473AF4 /* TELocalizedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TELocalizedLabel.h; sourceTree = "<group>"; };
 		D9654F5B1ED217D700473AF4 /* TELocalizedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TELocalizedLabel.m; sourceTree = "<group>"; };
+		D9654F5D1ED228CE00473AF4 /* TestCompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCompanyModel.m; sourceTree = "<group>"; };
+		D9654F5F1ED22E0700473AF4 /* TestGeolocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGeolocationModel.m; sourceTree = "<group>"; };
+		D9654F611ED22F1A00473AF4 /* TestAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAddressModel.m; sourceTree = "<group>"; };
+		D9654F631ED22FE100473AF4 /* TestHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHomeViewModel.m; sourceTree = "<group>"; };
+		D9654F661ED2328F00473AF4 /* TestSignupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSignupViewModel.m; sourceTree = "<group>"; };
 		D99CFBC91ED0498F009EE2A4 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		D99CFBCB1ED049B5009EE2A4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D99CFBCD1ED0C52A009EE2A4 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
@@ -110,7 +119,6 @@
 		D99CFC061ED1A812009EE2A4 /* TELocalizedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TELocalizedButton.m; sourceTree = "<group>"; };
 		D9AE24881ECE1D7400C9E4F7 /* TestEngie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEngie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE24A11ECE1D7400C9E4F7 /* TestEngieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEngieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9AE24A51ECE1D7400C9E4F7 /* TestEngieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEngieTests.m; sourceTree = "<group>"; };
 		D9AE24A71ECE1D7400C9E4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AE24AC1ECE1D7400C9E4F7 /* TestEngieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEngieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE24B01ECE1D7400C9E4F7 /* TestEngieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEngieUITests.m; sourceTree = "<group>"; };
@@ -350,8 +358,12 @@
 		D9AE24A41ECE1D7400C9E4F7 /* TestEngieTests */ = {
 			isa = PBXGroup;
 			children = (
-				D9AE24A51ECE1D7400C9E4F7 /* TestEngieTests.m */,
 				D9AE24A71ECE1D7400C9E4F7 /* Info.plist */,
+				D9654F5D1ED228CE00473AF4 /* TestCompanyModel.m */,
+				D9654F5F1ED22E0700473AF4 /* TestGeolocationModel.m */,
+				D9654F611ED22F1A00473AF4 /* TestAddressModel.m */,
+				D9654F631ED22FE100473AF4 /* TestHomeViewModel.m */,
+				D9654F661ED2328F00473AF4 /* TestSignupViewModel.m */,
 			);
 			path = TestEngieTests;
 			sourceTree = "<group>";
@@ -849,7 +861,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9AE24A61ECE1D7400C9E4F7 /* TestEngieTests.m in Sources */,
+				D9654F601ED22E0700473AF4 /* TestGeolocationModel.m in Sources */,
+				D9654F621ED22F1A00473AF4 /* TestAddressModel.m in Sources */,
+				D9654F671ED2328F00473AF4 /* TestSignupViewModel.m in Sources */,
+				D9654F641ED22FE100473AF4 /* TestHomeViewModel.m in Sources */,
+				D9654F5E1ED228CE00473AF4 /* TestCompanyModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,7 @@ typedef NS_ENUM(NSInteger, TEHomeItem) {
     TEHomeItemBs
 };
 
+@class TEUser;
 @interface TEHomeViewModel : NSObject
 @property (nonatomic, copy, readonly) NSArray<NSArray *> *dataSource;
 - (NSString *)titleOfSection:(TEHomeSection)section;

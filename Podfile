@@ -7,8 +7,6 @@ target 'TestEngie' do
 
   # Pods for TestEngie
   pod 'IQKeyboardManager'
-  pod 'Expecta', '~> 1.0'
-  pod 'Specta', '~> 1.0'
   
   target 'TestEngieTests' do
     inherit! :search_paths

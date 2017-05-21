@@ -13,4 +13,5 @@
 
 typedef void (^TESubscribeUserCompletionHandler)(TEUser *user, NSError *error);
 typedef void (^TEEmptyHandler)();
+
 #endif /* TEHandlers_h */
