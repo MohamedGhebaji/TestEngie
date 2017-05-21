@@ -16,6 +16,7 @@
 		D9654F621ED22F1A00473AF4 /* TestAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F611ED22F1A00473AF4 /* TestAddressModel.m */; };
 		D9654F641ED22FE100473AF4 /* TestHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F631ED22FE100473AF4 /* TestHomeViewModel.m */; };
 		D9654F671ED2328F00473AF4 /* TestSignupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9654F661ED2328F00473AF4 /* TestSignupViewModel.m */; };
+		D9654F691ED2346300473AF4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D9654F681ED2346300473AF4 /* README.md */; };
 		D99CFBCA1ED0498F009EE2A4 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBC91ED0498F009EE2A4 /* Menu.storyboard */; };
 		D99CFBCC1ED049B5009EE2A4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBCB1ED049B5009EE2A4 /* Home.storyboard */; };
 		D99CFBCE1ED0C52A009EE2A4 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99CFBCD1ED0C52A009EE2A4 /* Onboarding.storyboard */; };
@@ -91,6 +92,7 @@
 		D9654F611ED22F1A00473AF4 /* TestAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAddressModel.m; sourceTree = "<group>"; };
 		D9654F631ED22FE100473AF4 /* TestHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHomeViewModel.m; sourceTree = "<group>"; };
 		D9654F661ED2328F00473AF4 /* TestSignupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSignupViewModel.m; sourceTree = "<group>"; };
+		D9654F681ED2346300473AF4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D99CFBC91ED0498F009EE2A4 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		D99CFBCB1ED049B5009EE2A4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D99CFBCD1ED0C52A009EE2A4 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 		D9AE247F1ECE1D7400C9E4F7 = {
 			isa = PBXGroup;
 			children = (
+				D9654F681ED2346300473AF4 /* README.md */,
 				D9AE248A1ECE1D7400C9E4F7 /* TestEngie */,
 				D9AE24A41ECE1D7400C9E4F7 /* TestEngieTests */,
 				D9AE24AF1ECE1D7400C9E4F7 /* TestEngieUITests */,
@@ -861,6 +864,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9654F691ED2346300473AF4 /* README.md in Sources */,
 				D9654F601ED22E0700473AF4 /* TestGeolocationModel.m in Sources */,
 				D9654F621ED22F1A00473AF4 /* TestAddressModel.m in Sources */,
 				D9654F671ED2328F00473AF4 /* TestSignupViewModel.m in Sources */,
